@@ -19,7 +19,7 @@ public void Connect()
  
     }
     
-AddRecords
+//AddRecords
 
 public void actionPerformed(ActionEvent e)
 {
@@ -48,7 +48,7 @@ e1.printStackTrace();
 }
 
 
-View Records
+//View Records
 
 
   public void table_load()
@@ -67,7 +67,7 @@ View Records
     
     
     
-Form Constructor
+//Form Constructor
 
 public JavaCrud() {
 initialize();
@@ -75,7 +75,7 @@ Connect();
 table_load();
 }
 
-Search Record
+//Search Record
 
 public void keyReleased(KeyEvent e) {
 try {
@@ -108,7 +108,7 @@ catch (SQLException ex) {
         }
 }
 
-Delete
+//Delete
 
 String bid;
 bid  = txtbid.getText();
